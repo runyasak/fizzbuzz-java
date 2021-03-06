@@ -1,5 +1,9 @@
 public class FizzBuzz {
     public String get(int i) {
-        return "1";
+        if (i % 3 == 0) {
+            return "Fizz";
+        }
+
+        return String.valueOf(i);
     }
 }
